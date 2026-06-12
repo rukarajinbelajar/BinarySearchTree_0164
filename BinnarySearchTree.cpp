@@ -7,4 +7,8 @@ public:
     string info;
     Node* leftChild;
     Node* rightChild;
+
+    Node(string i, Node* 1, Node* r) {
+        
+    }
 }
