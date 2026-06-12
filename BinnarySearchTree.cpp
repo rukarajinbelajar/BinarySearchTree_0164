@@ -102,4 +102,9 @@ public:
             postorder(ptr->rightChild);
             cout << ptr->info << " ";
     }
+};
+
+int main()
+{
+    
 }
