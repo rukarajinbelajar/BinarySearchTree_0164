@@ -15,6 +15,8 @@ public:
     }
 };
 
-clas BinaryTree{
-    
+class BinaryTree{
+
+public:
+    Node* ROOT;
 }
