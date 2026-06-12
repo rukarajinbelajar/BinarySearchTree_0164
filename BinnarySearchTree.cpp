@@ -8,9 +8,9 @@ public:
     Node* leftChild;
     Node* rightChild;
 
-    Node(string i, Node* 1, Node* r) {
+    Node(string i, Node* l, Node* r) {
         info = i;
-        leftChild = 1;
+        leftChild = l;
         rightChild = r;
     }
 };
