@@ -63,5 +63,18 @@ public:
                 currentNode = currentNode->rightChild;
         }
     }
+
+    void inorder(Node* ptr) {
+
+        if (ROOT == nullptr) {
+            cout << "Tree is empty" << endl;
+            return;
+        }
+        if (ptr != nullptr){
+            inorder(ptr->leftChild);
+            cout << ptr->info << " ";
+            inorder(ptr->rightChild);
+        }
+    }
     
 }
