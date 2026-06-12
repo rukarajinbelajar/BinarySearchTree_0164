@@ -14,3 +14,7 @@ public:
         rightChild = r;
     }
 };
+
+clas BinaryTree{
+    
+}
